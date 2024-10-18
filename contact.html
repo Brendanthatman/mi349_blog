@@ -16,8 +16,23 @@
             </ul>
         </nav>
     </header>
-    <article>
+    <section>
         <h2>Contact Brendan</h2>
-    </article>
+        <form id="contact_form" action="/" method="post">
+            <p><label for="name">Name:</label></p>
+            <input id="name" name="name" type="text">
+            <p><label for="address">Address:</label></p>
+            <input id="address" name="address" type="email">
+            <p><label for="reason">Reason for Contact:</label></p>
+            <select id="reason" name="reason">
+                <option value="hi">Hi</option>
+                <option value="looking for contractor">Looking for Contractor</option>
+                <option value="interested in an interview">Interested in an Interview</option>
+            </select>
+            <p><label for="open">Open Comment:</label></p>
+            <textarea name="open" id="open" rows="10" cols="19"></textarea>
+            <p><input name="submit" id="submit" type="submit"></p>
+        </form>
+    </section>
 </body>
 </html>
