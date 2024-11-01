@@ -66,10 +66,15 @@ img {
 }
 
 .newsletter {
+    display: flex;
     background-color: #393e41;
     padding: 10px;
     border-radius: 20px;
     margin: 80px 20px 20px 20px;
+}
+
+.newsletter_form {
+    align-items: center;
 }
 
 a:link {
