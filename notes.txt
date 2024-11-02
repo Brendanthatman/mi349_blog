@@ -5,3 +5,8 @@ EF6461 Bittersweet
 729B79 Cambridge blue
 F7F9F9 Seasalt
 7796CB Vista blue
+
+
+C97064 Indian Red
+748B75 Reseda Green
+66999B Moonstone
