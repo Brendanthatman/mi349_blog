@@ -40,14 +40,10 @@ h2 {
 }
 
 article {
-    background-color: #393e41;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 20px;
     flex: 1;
 }
 
-.contact_form_section{
+.block_style {
     background-color: #393e41;
     padding: 10px;
     border-radius: 20px;
@@ -110,4 +106,9 @@ a:visited {
 
 #about_section_three {
     flex: 1;
+}
+
+input[type="submit"], button {
+    background-color: #c97064;
+    color: #f7f9f9;
 }
