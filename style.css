@@ -44,6 +44,7 @@ article {
     padding: 10px;
     border-radius: 20px;
     margin: 20px;
+    flex: 1;
 }
 
 .contact_form_section{
@@ -97,4 +98,16 @@ a:visited {
 
 #about_items div {
     margin: 30px;
+}
+
+#about_section_one {
+    flex: 1;
+}
+
+#about_section_two {
+    flex: 2;
+}
+
+#about_section_three {
+    flex: 1;
 }
