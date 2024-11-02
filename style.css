@@ -54,6 +54,8 @@ article {
 
 .contact_form {
     display: flex;
+    flex-wrap: wrap;
+    
 }
 
 img {
