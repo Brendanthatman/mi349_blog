@@ -56,6 +56,15 @@ article {
     align-items: center;
 }
 
+.contact_form input, textarea, select {
+    border-radius: 5px;
+    width: 50%;
+}
+
+#submit {
+    width: 100%;
+}
+
 img {
     border-radius: 20px;
     display: block;
@@ -75,7 +84,7 @@ table, th, td {
     border-collapse: collapse;
     border: 3px solid #c97064;
     margin: auto;
-}
+}   
 
 a:link {
     color: #f7f9f9;
