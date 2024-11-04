@@ -105,6 +105,10 @@ a:visited {
     flex: 1;
 }
 
+#km_driven {
+    text-align: center;
+}
+
 input[type="submit"], button {
     background-color: #c97064;
     color: #f7f9f9;
