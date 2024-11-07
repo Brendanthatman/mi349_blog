@@ -16,7 +16,7 @@ header {
 
 h1 {
     text-align: center;
-    padding-top: 5px;
+    padding-top: 8px;
 }
 
 h2 {
@@ -26,6 +26,11 @@ h2 {
 .navigation ul {
     display: flex;
     padding-right: 35px;
+    padding-bottom: 8px;
+}
+
+.navigation a {
+    text-decoration: none;
 }
 
 .navbaritem {
@@ -86,8 +91,9 @@ table, th, td {
     margin: auto;
 }   
 
+
 a:link {
-    color: #f7f9f9;
+    color: #c97064;
 }
 
 a:visited {
@@ -116,6 +122,10 @@ a:visited {
 
 #km_driven {
     text-align: center;
+}
+
+#home, #about {
+    border-right: 2px solid #66999b;
 }
 
 input[type="submit"], button {
